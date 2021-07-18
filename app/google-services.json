@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954001052934",
+    "firebase_url": "https://schedoc-b3594-default-rtdb.firebaseio.com",
+    "project_id": "schedoc-b3594",
+    "storage_bucket": "schedoc-b3594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954001052934:android:f2eb77981a50d8ef64ba87",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954001052934-93gaokh32v1rlehmlqjqi5tn4aco10j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7d6OJGM6daWwbpUgXAQ4TEP2Ns05KnOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954001052934-93gaokh32v1rlehmlqjqi5tn4aco10j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

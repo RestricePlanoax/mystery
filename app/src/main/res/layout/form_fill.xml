@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="337dp"
+        android:layout_height="72dp"
+        android:text="Please fill in the details to complete your registration ! "
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="213dp"
+        android:layout_height="21dp"
+        android:text="What is your gender?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_gender"
+        android:layout_width="142dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257">
+
+        <RadioButton
+            android:id="@+id/radio_gender_male"
+            android:layout_width="89dp"
+            android:layout_height="30dp"
+            android:onClick="checkButton1"
+            android:text="Male"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <RadioButton
+            android:id="@+id/radio_gender_female"
+            android:layout_width="83dp"
+            android:layout_height="29dp"
+            android:onClick="checkButton1"
+            android:text="Female"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+        <RadioButton
+            android:id="@+id/radio_gender_non"
+            android:layout_width="96dp"
+            android:layout_height="32dp"
+            android:onClick="checkButton1"
+            android:text="Non Binary"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="266dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:text="What is your age?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474">
+
+        <RadioButton
+            android:id="@+id/radio_age_0"
+            android:layout_width="89dp"
+            android:layout_height="30dp"
+            android:onClick="checkButton2"
+            android:text="18-34"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <RadioButton
+            android:id="@+id/radio_age_1"
+            android:layout_width="83dp"
+            android:layout_height="29dp"
+            android:onClick="checkButton2"
+            android:text="35-44"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+        <RadioButton
+            android:id="@+id/radio_age_2"
+            android:layout_width="96dp"
+            android:layout_height="32dp"
+            android:onClick="checkButton2"
+            android:text="45-59"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <RadioButton
+            android:id="@+id/radio_age_3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:onClick="checkButton2"
+            android:text="60 and above"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have u been vaccinated against Covid-19?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_covid"
+        android:layout_width="90dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652">
+
+
+        <RadioButton
+            android:id="@+id/radio_covid_1"
+            android:layout_width="83dp"
+            android:layout_height="29dp"
+            android:onClick="checkButton3"
+            android:text="Yes"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+        <RadioButton
+            android:id="@+id/radio_covid_0"
+            android:layout_width="89dp"
+            android:layout_height="30dp"
+            android:onClick="checkButton3"
+            android:text="No"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="443dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you have any pre exisiting conditions?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772">
+
+        <RadioButton
+            android:id="@+id/radio_pre_1"
+            android:layout_width="83dp"
+            android:layout_height="29dp"
+            android:onClick="checkButton4"
+            android:text="Yes"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+
+        <RadioButton
+            android:id="@+id/radio_pre_0"
+            android:layout_width="89dp"
+            android:layout_height="30dp"
+            android:onClick="checkButton4"
+            android:text="No"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:backgroundTint="#0089FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#03A9F4"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
